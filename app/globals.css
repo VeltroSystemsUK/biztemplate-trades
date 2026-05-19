@@ -4,29 +4,29 @@
   --font-display: var(--font-display-loaded), Georgia, serif;
   --font-sans: var(--font-sans-loaded), system-ui, sans-serif;
 
-  --color-primary-50: #f0f4fb;
-  --color-primary-100: #dde6f5;
-  --color-primary-200: #bcccea;
-  --color-primary-300: #90abda;
-  --color-primary-400: #6387c5;
-  --color-primary-500: #4068af;
-  --color-primary-600: #304f8f;
-  --color-primary-700: #273f72;
-  --color-primary-800: #213460;
-  --color-primary-900: #1e3054;
-  --color-primary-950: #141f38;
+  --color-primary-50: #f0f4fa;
+  --color-primary-100: #dde6f3;
+  --color-primary-200: #bad0e8;
+  --color-primary-300: #8db1d7;
+  --color-primary-400: #5f8ec3;
+  --color-primary-500: #3d6fa8;
+  --color-primary-600: #2e578d;
+  --color-primary-700: #254272;
+  --color-primary-800: #1e3a5f;
+  --color-primary-900: #162a47;
+  --color-primary-950: #0d1c30;
 
   --color-accent-50: #fff7ed;
-  --color-accent-100: #ffedd5;
-  --color-accent-200: #fed7aa;
-  --color-accent-300: #fdba74;
-  --color-accent-400: #fb923c;
+  --color-accent-100: #ffead5;
+  --color-accent-200: #ffd0a8;
+  --color-accent-300: #ffb070;
+  --color-accent-400: #fd8c3c;
   --color-accent-500: #f97316;
-  --color-accent-600: #ea6c0a;
-  --color-accent-700: #c45c2a;
-  --color-accent-800: #9a4423;
-  --color-accent-900: #7c3820;
-  --color-accent-950: #431c0d;
+  --color-accent-600: #d97706;
+  --color-accent-700: #b45309;
+  --color-accent-800: #92400e;
+  --color-accent-900: #78350f;
+  --color-accent-950: #431a03;
 
   --color-cream: #fafaf8;
   --color-cream-dark: #f0ede6;
@@ -50,8 +50,8 @@ body {
 .gradient-hero {
   background: linear-gradient(
     160deg,
-    rgba(33, 52, 96, 0.92) 0%,
-    rgba(39, 63, 114, 0.74) 50%,
+    rgba(30, 58, 95, 0.92) 0%,
+    rgba(37, 66, 114, 0.74) 50%,
     rgba(249, 115, 22, 0.38) 100%
   );
 }
@@ -60,8 +60,8 @@ body {
 }
 .card-hover:hover {
   transform: translateY(-3px);
-  box-shadow: 0 12px 40px -8px rgba(39, 63, 114, 0.18);
+  box-shadow: 0 12px 40px -8px rgba(37, 66, 114, 0.18);
 }
-:focus-visible { outline: 2px solid #273f72; outline-offset: 2px; }
+:focus-visible { outline: 2px solid #254272; outline-offset: 2px; }
 .section-pad { padding-top: 5rem; padding-bottom: 5rem; }
 @media (max-width: 768px) { .section-pad { padding-top: 3rem; padding-bottom: 3rem; } }
